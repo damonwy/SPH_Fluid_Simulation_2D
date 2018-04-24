@@ -1,0 +1,1 @@
+g++ -std=c++11 -Wall -g -O2 sph_main.cpp Particle.cpp sph.cpp -lm -I /usr/local/include -L /usr/local/lib -lOpenImageIO -framework Foundation -framework GLUT -framework OpenGL -I ~/Documents/projects/SPH_Fluid_Simulation_2D/Eigen/ -o sph_sim
